@@ -10,13 +10,13 @@
 
 
     <script>
-       var matrikA =[[1,2,],
-                    [4,5]
-                //  [7,8,9]
+       var matrikA =[[1,2,6],
+                    [4,5,5],
+                 [7,8,9]
                 ];
-       var matrikB =[[10,11],
-                    [13,15]
-                    // [16,17,18]
+       var matrikB =[[10,11,4],
+                    [13,15,55],
+                    [16,17,18]
                 ];
     var barisA = matrikA.length;
     var kolomA = matrikA[0].length;
@@ -28,7 +28,7 @@
        for(i = 0; i< matrikA.length ; i++){
            for(j = 0; j< matrikA[0].length; j++){
                document.write(matrikA[i][j]);
-               document.write(' ');
+            //    document.write(' ');
            }
            document.write('<br>');
        }
